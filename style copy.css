@@ -25,11 +25,20 @@ hr {
 }
 
 /**link**/
-.link {
+.header-link {
   text-decoration: none;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  height: 15px;
 }
 
 .primary-color {
