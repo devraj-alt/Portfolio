@@ -57,6 +57,7 @@ hr {
 
 .non-bullet {
   list-style: none;
+  padding: 0;
 }
 
 .list-item-inline {
