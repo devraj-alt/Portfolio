@@ -141,3 +141,56 @@ hr {
 .footer ul {
   padding-inline-start: 0px;
 }
+
+.blog-body {
+  /* max-width: 800px; */
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.blog-header-img {
+  width: 55%;
+  display: block;
+  margin: auto;
+}
+.blog-header {
+  text-align: center;
+  margin: 2rem 0rem auto;
+  font-size: 40px;
+}
+.blog-header-date {
+  text-align: center;
+  display: block;
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+
+.blog-para {
+  max-width: 650px;
+  margin: auto;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.blog-para-normal {
+  font-weight: normal;
+}
+
+.blog-heading {
+  font-size: 27px;
+}
+
+pre {
+  max-width: 650px;
+  margin: auto;
+  background-color: #31353b;
+  border-radius: 5px;
+}
+
+pre code {
+  color: whitesmoke;
+  font-size: 16px;
+  display: block;
+  white-space: pre-wrap;
+}
