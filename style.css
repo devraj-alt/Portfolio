@@ -149,7 +149,7 @@ hr {
 }
 
 .blog-header-img {
-  width: 55%;
+  width: 50%;
   display: block;
   margin: auto;
 }
@@ -181,6 +181,12 @@ hr {
   font-size: 27px;
 }
 
+.blog-img-end {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
 pre {
   max-width: 650px;
   margin: auto;
@@ -193,4 +199,17 @@ pre code {
   font-size: 16px;
   display: block;
   white-space: pre-wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .blog-header-img {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+  .blog-img-end {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
 }
